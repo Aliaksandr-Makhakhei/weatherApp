@@ -1,0 +1,35 @@
+.weather-search {
+    display: flex;
+    justify-content: space-evenly;
+
+    &__country {
+        padding: 0.5em;
+        width: 40%;
+        border: 2px solid rgb(123, 123, 123, .4);
+        border-radius: 6px;
+    }
+    &__city {
+        padding: 0.5em;
+        width: 40%;
+        border: 2px solid rgb(123, 123, 123, .4);
+        border-radius: 6px;
+    }
+    
+    &__disable {
+        padding: 0.5em;
+        width: 40%;
+        border: 2px solid rgb(248, 18, 18);
+        border-radius: 6px;
+    }
+    
+    &__button {
+        padding: 0.3em;
+        border: 2px solid rgb(123, 123, 123, .4);
+        border-radius: 6px;
+        background-color: rgb(138, 255, 138);
+    }
+
+    &__button:active {
+        background-color: rgb(3, 230, 3);
+    }
+}

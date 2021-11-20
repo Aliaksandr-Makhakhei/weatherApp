@@ -1,0 +1,18 @@
+.weather-main {
+    margin: 1em 0;
+    padding: 1em 0;
+    text-align: center;
+    border: solid rgb(123, 123, 123, .4);
+    border-width: 0.2em 0;
+}
+
+.weather-temperature {
+    font-size: 6em;
+    font-weight: bold;
+}
+.weather-description {
+    font-size: 2.5em;
+}
+.weather-location {
+    font-size: 2em;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather APP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/scss/style.scss">
+    <script src="/scripts/index.js" defer ></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="app-container">
+            <div class="weather-search">
+                <input type="text" placeholder="Country" class="weather-search__country" id="weather-search__country">
+                <input type="text" placeholder="City" class="weather-search__city" id="weather-search__city">
+                <button type="submit" class="weather-search__button" id="weather-search__button">GO</button>
+            </div>
+            <div class="weather-main">
+                <div class="weather-image"></div>
+                <div class="weather-temperature"></div>
+                <div class="weather-description"></div>
+                <div class="weather-location"></div>
+            </div>
+            <div class="weather-footer">
+                <div class="weather-feelslike">
+                    <p class="weather-feelslike_degrees"></p>
+                    <p class="weather-feelslike_text">Feels like</p>
+                </div>
+                <div class="weather-humidity">
+                    <p class="weather-humidity_interest"></p>
+                    <p class="weather-humidity_text">Humidity</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

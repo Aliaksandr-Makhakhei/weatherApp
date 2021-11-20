@@ -1,0 +1,9 @@
+//Default config
+@import '../scss/global/normalize';
+
+// Components
+@import '../scss/components/base';
+@import '../scss/components/weather-search';
+@import '../scss/components/weather-main';
+@import '../scss/components/weather-footer';
+@import '../scss/global/media';

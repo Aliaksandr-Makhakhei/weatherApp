@@ -1,0 +1,27 @@
+{
+  "name": "weatherApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./index.html --open",
+    "build": "parcel build ./index.html --public-url /weatherApp --no-content-hash"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aliaksandr-Makhakhei/weatherApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aliaksandr-Makhakhei/weatherApp/issues"
+  },
+  "homepage": "https://github.com/Aliaksandr-Makhakhei/weatherApp#readme",
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.43.4"
+  }
+}

@@ -1,0 +1,23 @@
+html {
+    font-size: 10px;
+    background-color: rgb(36, 195, 220);
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+.app-container {
+    padding: 1em 0;
+    background-color: rgb(245, 245, 245);
+    border-radius: 0.8em;
+    margin: 10em auto;
+    max-width: 30%;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+button {
+    font-family: 'Shippori Antique B1', sans-serif;
+}
